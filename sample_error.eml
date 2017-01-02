@@ -1,0 +1,267 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<style>
+<!--
+a:link {color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited {color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+td.ltname {
+    width:131;
+    vertical-align:text-top;
+    text-align:right;
+    border:none;
+    border-top:double silver 2.0pt;
+    border-bottom:solid silver 1.0pt;
+    background:#FFFF99;
+    padding:0cm 5.4pt 0cm 5.4pt;
+    height:13.5pt;
+    font-size:10.0pt;
+    font-family:"Trebuchet MS";
+    font-weight:bold;
+    }
+td.rtvalue {
+   vertical-align:text-top;
+   text-align:left;
+   border:none;
+   border-top:double silver 2.0pt;
+   border-bottom:solid silver 1.0pt;
+   padding:0cm 5.4pt 0cm 5.4pt;
+   height:13.5pt;
+   font-size:10.0pt;
+   font-family:"Trebuchet MS";
+   }
+td.lmname {
+    width:131;
+    vertical-align:text-top;
+    text-align:right;
+    border:none;
+    border-bottom:solid silver 1.0pt;
+    background:#FFFF99;
+    padding:0cm 5.4pt 0cm 5.4pt;
+    height:13.5pt;
+    font-size:10.0pt;
+    font-family:"Trebuchet MS";
+    font-weight:bold;
+    }
+td.rmvalue {
+   vertical-align:text-top;
+   border:none;
+   border-bottom:solid silver 1.0pt;
+   padding:0cm 5.4pt 0cm 5.4pt;
+   height:13.5pt;
+   font-size:10.0pt;
+   font-family:"Trebuchet MS";
+   }
+td.lbname {
+    width:131;
+    vertical-align:text-top;
+    text-align:right;
+    border:none;
+    border-bottom:double silver 2.0pt;
+    background:#FFFF99;
+    padding:0cm 5.4pt 0cm 5.4pt;
+    height:13.5pt;
+    font-size:10.0pt;
+    font-family:"Trebuchet MS";
+    font-weight:bold;
+    }
+td.rbvalue {
+   vertical-align:text-top;
+   border-bottom:double silver 2.0pt;
+   border-left:none;
+   padding:0cm 5.4pt 0cm 5.4pt;
+   height:13.5pt;
+   font-size:10.0pt;
+   font-family:"Trebuchet MS";
+}
+tr {height:13.5pt}
+pre {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    white-space : normal ; /* Internet Explorer 5.5+ */
+    font-family:"Trebuchet MS";
+}
+p {
+    margin:0;
+    margin-top:4px;
+    margin-bottom:0px;
+    font-size:10.0pt;
+    font-family:"Trebuchet MS"
+}
+td.ttsub {
+   vertical-align:text-center;
+   text-align:center;
+   border-bottom:solid silver 1.0pt;
+   border-left:solid silver 1.0pt;
+   border-top:solid silver 1.0pt;
+   border-right:none;
+   padding:0cm 5.4pt 0cm 5.4pt;
+   height:13.5pt;
+   font-size:10.0pt;
+   font-family:"Trebuchet MS";
+   font-weight:bold;
+   background: #EEEDED;
+}
+td.rttsub {
+   vertical-align:text-center;
+   text-align:center;
+   border-bottom:solid silver 1.0pt;
+   border-left:solid silver 1.0pt;
+   border-top:solid silver 1.0pt;
+   border-right:solid silver 1.0pt;
+   padding:0cm 5.4pt 0cm 5.4pt;
+   height:13.5pt;
+   font-size:10.0pt;
+   font-family:"Trebuchet MS";
+   font-weight:bold;
+   background: #EEEDED;
+}
+
+td.tsub {
+   vertical-align:text-top;
+   border-bottom:solid silver 1.0pt;
+   border-left:solid silver 1.0pt;
+   border-top:none;
+   border-right:none;
+   padding:0cm 5.4pt 0cm 5.4pt;
+   height:13.5pt;
+   font-size:10.0pt;
+   font-family:"Trebuchet MS";
+   font-weight:bold;
+   background: #EEEDED;
+}
+
+td.sub {
+   vertical-align:text-center;
+   text-align:center;
+   border-bottom:solid silver 1.0pt;
+   border-left:solid silver 1.0pt;
+   border-top:none;
+   border-right:none;
+   padding:0cm 5.4pt 0cm 5.4pt;
+   height:13.5pt;
+   font-size:10.0pt;
+   font-family:"Trebuchet MS";
+}
+td.esub {
+   vertical-align:text-center;
+   text-align:center;
+   border-bottom:solid silver 1.0pt;
+   border-left:solid silver 1.0pt;
+   border-top:none;
+   border-right:none;
+   padding:0cm 5.4pt 0cm 5.4pt;
+   height:13.5pt;
+   font-size:10.0pt;
+   font-family:"Trebuchet MS";
+   font-weight:bold;
+   color:red;
+}
+td.ltsub {
+   vertical-align:text-center;
+   text-align:center;
+   border-bottom:solid silver 1.0pt;
+   border-left:solid silver 1.0pt;
+   border-top:none;
+   border-right:none;
+   padding:0cm 5.4pt 0cm 5.4pt;
+   height:13.5pt;
+   font-size:10.0pt;
+   font-family:"Trebuchet MS";
+   font-weight:bold;
+   background: #EEEDED;
+}
+td.rtsub {
+   vertical-align:text-center;
+   text-align:center;
+   border-bottom:solid silver 1.0pt;
+   border-left:solid silver 1.0pt;
+   border-top:none;
+   border-right:solid silver 1.0pt;
+   padding:0cm 5.4pt 0cm 5.4pt;
+   height:13.5pt;
+   font-size:10.0pt;
+   font-family:"Trebuchet MS";
+   font-weight:bold;
+   background: #FFFFCC;
+}
+td.btsub {
+   vertical-align:text-center;
+   text-align:center;
+   border-bottom:solid silver 1.0pt;
+   border-left:solid silver 1.0pt;
+   border-top:none;
+   border-right:none;
+   padding:0cm 5.4pt 0cm 5.4pt;
+   height:13.5pt;
+   font-size:10.0pt;
+   font-family:"Trebuchet MS";
+   font-weight:bold;
+   background: #FFFFCC;
+}
+td.rbtsub {
+   vertical-align:text-center;
+   text-align:center;
+   border-bottom:solid silver 1.0pt;
+   border-left:solid silver 1.0pt;
+   border-top:none;
+   border-right:solid silver 1.0pt;
+   padding:0cm 5.4pt 0cm 5.4pt;
+   height:13.5pt;
+   font-size:12.0pt;
+   font-family:"Trebuchet MS";
+   font-weight:bold;
+   background: #FFFFCC;
+   color:blue;
+}
+-->
+</style>
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:36.0pt'>
+<div>
+<p>Hi,</p>
+<p>&nbsp;</p>
+<p>Your Sample testing on {MODEL_NAME} on {HOST_NAME} encountered a fatal error.</p>
+<p>The start time is {START_TIME}</p>
+<p>The stop time is {STOP_TIME}</p>
+<p>Here is the summary of this test:</p>
+<p>&nbsp;</p>
+<table width=100% border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td class=ltname>Host Name:</td>
+  <td class=rtvalue>{HOST_NAME}</td>
+ </tr>
+ <tr>
+  <td class=lmname>Test Bed:</td>
+  <td class=rmvalue>{TEST_BED}</td>
+ </tr>
+ <tr>
+  <td class=lmname>Model Name:</td>
+  <td class=rmvalue>{MODEL_NAME}</td>
+ </tr>
+ <tr>
+  <td class=lmname>F/W Version:</td>
+  <td class=rmvalue>{FW_VERSION}</td>
+ </tr>
+ <tr>
+  <td class=lmname>Error Messages:</td>
+  <td class=rmvalue>{ERROR_MSG}</td>
+ </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Thanks!</p>
+<p>&nbsp;</p>
+</div>
+</body>
+</html>
